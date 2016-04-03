@@ -1,0 +1,55 @@
+Name : Rasika Dhanurkar
+student id:1001110582
+
+References:
+a) http://boto.readthedocs.org/en/latest/s3_tut.html
+
+b) http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/getting-started-
+
+deploy-app.html
+
+c)http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Python.rds.
+
+html
+
+d) http://aws.amazon.com/ec2/
+
+e) http://dev.mysql.com/doc/mysql-ha-scalability/en/ha-memcached-interfaces-
+
+python.html
+
+
+e) http://dev.mysql.com/doc/mysql-ha-scalability/en/ha-memcached-interfaces-
+
+python.html
+
+f) http://stackoverflow.com/questions/868690/good-examples-of-python-
+
+memcache-memcached-being-used-in-python
+
+g) http://stackoverflow.com/questions/28785864/sql-to-combine-data-from-fields-
+
+and-provide-collatted-data
+
+h) http://stackoverflow.com/questions/5125076/sql-query-to-select-dates-between-
+
+two-dates
+
+i)http://aws.amazon.com/developers/getting-started/python/ - Python SDK for AWS
+
+j)http://boto.readthedocs.org/en/latest/ - boto interface (python) for AWS
+
+k)http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html - AWS CLI interface. (helpful to configure credentials for boto to pickup)
+
+
+Project flow :
+Language: Python interpreter language 
+
+a) upload and download file from aws s3
+b)for loading file to rds instance and querying 
+c)query using MySQLdb for 1000,5000 and 20000 small random queries(with and without and memcache)
+d)using "elastic" cache for memcaching and querying the table for small and larger tuples 
+e)time taken for upload:-
+Time taken for uploading file to AWS s3 is : 0.692910909653
+Time taken for downloading  file from AWS s3 is 1.03823709488
+
